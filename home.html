@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<title>MAJOR PROJECT - HOME</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("background.png");
+  min-height: 100%;
+}
+body{
+            background-color: white;
+        }
+        .x{
+            border:3px solid black;
+            border-radius: 3%;
+            background-color:rgba(255, 255, 255, 0.5)
+        }
+.w3-bar .w3-button {
+  padding: 8px 16px;
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top" id="home">
+  <div class="w3-bar w3-white w3-card-2" id="myNavbar">
+     <a href="#home" class="w3-bar-item w3-button w3-indigo w3-hover-indigo"><b>Multi modal Twitter data Analysis</b></a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button w3-white w3-hover-indigo"> <b>ABOUT Project </b></a>
+      <a href="#contact" class="w3-bar-item w3-button w3-white w3-hover-indigo"> <b>ABOUT US</b></a>
+      <a href="#result" class="w3-bar-item w3-button w3-white w3-hover-indigo"> <b>Results</b></a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+</nav>
+<div class="w3-container" style="padding:90px 100px 100px 220px" id="top">
+    <center><h1 style="font-size: 40px;">Multi Modal Twitter Data Analysis for Disaster Response</h1></center>
+    <br>
+   <center>
+    <h2>Under the guidance of</h2>
+    <h1 style="color:indigo">Dr. Soumyadev Maity</h1>
+    <br><br>
+   </center>
+    <center><a href="index.html" class="w3-button w3-indigo w3-hover-blue"> <b style="padding:50px; font-size: 30px;">Results</b></a></center>
+</div>
+
+<!-- About Section -->
+<div class="w3-container" style="padding:70px 16px" id="about">
+  <h1 class="w3-center" style="color: indigo;"><b>ABOUT THE PROJECT</b></h1>
+  
+  <h3class="w3-center" style="font-size: 20px;">During natural disasters, for giving updates, people use social media platforms such as twitter hugely. 
+    Social media is the most relevant source in the time of crisis situations. 
+    This posted information is very valuable for many humanitarian organizations. 
+    The posted data is available in various modalities like text, image, etc… Using that information 
+    the humanitarian organizations gain the awareness of the situation in quick time to provide help 
+    and distribute aid resources according to the need of the resources. Using this information 
+    these organizations can spend their resources according to the need quickly, 
+    cost-effectively and easily to reduce the possibility of damage, injuries and even loss of lives. 
+    Therefore analyzing this posted data to get more information to humanitarian organizations 
+    is very helpful in crisis situations. 
+    There are various studies that have only analyzed the text data from the twitter posts.
+     Clearly, there is a need to explore other modalities for getting more information 
+     in these crisis situations. In this study, we propose to use a multimodal approach using both text
+      and image modalities of Twitter data to determine whether a tweet is informative 
+      for humanitarian aid and to further classify them based on the relevant information 
+      they provide such as reports of infrastructure damage, deceased people, and other categories. </h3>
+</div>
+
+<!-- Results Section -->
+<div class="w3-container" style="padding:70px 16px" id="result">
+  <h1 class="w3-center" style="color: indigo;"><b>Results</b></h1>
+  <h3class="w3-center" style="font-size: 20px;">Our model achieves state-of-the-art performance on the CrisisMMD 
+    dataset with an accuracy of <b style="color:indigo">93.3%</b> for the Informative task which surpasses 
+    the baseline performance by <b style="color:indigo">8.9%</b>  and an accuracy of <b style="color:indigo">91.1%</b>  for the Humanitarian task 
+    which surpasses the baseline performance by <b style="color:indigo">12.7%</b>  </h3>
+</div>
+
+<!-- Conclusion Section -->
+<div class="w3-container" style="padding:70px 16px" id="result">
+  <h1 class="w3-center" style="color: indigo;"><b>Conclusion</b></h1>
+  <h3class="w3-center" style="font-size: 20px;">We proposed a model architecture containing CLIP image and text encoders followed by align fusion, 
+    which achieve the state-of-the-art performance quickly in 20 epochs on CrisisMMD dataset. 
+    It has only 4 trainable layers which are: two single layer feed forward networks following CLIP image and text encoders, 
+    a single layer feed forward network following fusion and finally the softmax output layer.</h3>
+</div>
+
+<!-- Contact Section -->
+<div class="w3-row-padding w3-white" style="padding:18px 150px" id="contact">
+  <h1 class="w3-center" style="color: indigo;"><b>About Us</b></h1>
+  <!-- <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>  -->
+  <div class="w3-third">
+    <img src="anirudh.jpeg" alt="Info" style="width:310px;height:250px;">
+    <h3><b>Name: S.Anirudh</b></h3>
+    <h3><b>Roll No: IIT2019068</b></h3>
+  </div>  
+  <div class="w3-third">
+      <img src="abhi.jpg" alt="Info" style="width:270px;height:250px;">
+      <h3><b>Name: K.Abhinav</b></h3>
+      <h3><b>Roll No: IIT2019135</b></h3>
+    </div>
+      <div class="w3-third">
+        <img src="nvvr_port.jpeg" alt="Info" style="width:310px;height:250px;">
+        <h3><b>Name: N.V.Vasanth Reddy</b></h3>
+        <h3><b>Roll No: IIT2019172</b></h3>
+      </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-indigo w3-padding-64">
+  <a href="#top" class="w3-button w3-white"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+</footer>
+
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>
