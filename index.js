@@ -1,0 +1,1 @@
+const data = require('./sample_dataset/data.tsv')

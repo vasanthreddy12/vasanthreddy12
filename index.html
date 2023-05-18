@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .container{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    .tweet{
+      width: 300px;
+    }
+    .tweet_text{
+      height: 200px;
+    }
+  </style>
+</head>
+<body>
+  <div class="w3-top" id="home">
+    <div class="w3-bar w3-white w3-card-2" id="myNavbar">
+      <a href="#home" class="w3-bar-item w3-button w3-indigo w3-hover-indigo"><b>Multi modal Twitter data Analysis</b></a>
+      <div class="w3-right w3-hide-small">
+        <b  class="w3-bar-item w3-button w3-white w3-hover-indigo btn btn1"> case1 </b>
+        <b  class="w3-bar-item w3-button w3-white w3-hover-indigo btn btn2">case2</b></a>
+        <b  class="w3-bar-item w3-button w3-white w3-hover-indigo btn btn3">case3 </b></a>
+        <b  class="w3-bar-item w3-button w3-white w3-hover-indigo btn btn4">case4</b></a>
+        <b  class="w3-bar-item w3-button w3-white w3-hover-indigo btn btn5">case5</b></a>
+        <b  class="w3-bar-item w3-button w3-white w3-hover-indigo btn btnall">caseall</b></a>
+      </div>
+      <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+  
+      <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <center><h1 id="myP" style="visibility:hidden;color:indigo">This is a p element.</h1></center>
+  <br>
+  <div class="container">
+      <div class="tweet four">
+          <div class="tweet_img">
+            <img src="sample_dataset/data_image/hurricane_harvey/12_9_2017/907654309587779584_0.jpg" alt="hurricane_harvey" width = "100%" height="200px"> 
+          </div>
+          <div class="tweet_text">
+            <p>After Harvey, Irma Leaves Its Own Trail of Destruction</p>
+          </div>
+      </div>
+      <div class="tweet four">
+        <div class="tweet_img">
+          <img src="sample_dataset/data_image/hurricane_harvey/4_9_2017/904545370549694464_0.png" alt="hurricane_harvey" width = "100%" height="200px"> 
+        </div>
+        <div class="tweet_text">
+          <p>Harvey forces National Weather Service to add new color to its rainfall map</p>
+        </div>
+    </div>
+    <div class="tweet four">
+      <div class="tweet_img">
+        <img src="sample_dataset/data_image/hurricane_harvey/7_9_2017/905817543503437824_0.jpg" alt="hurricane_harvey" width = "100%" height="200px"> 
+      </div>
+      <div class="tweet_text">
+        <p>#Hurrican #Harvey transposed over #Illinois to show widespread #heavyrain @watersurvey</p>
+      </div>
+  </div>
+
+  <div class="tweet three">
+    <div class="tweet_img">
+      <img src="sample_dataset/data_image/hurricane_harvey/10_9_2017/907006307433148417_0.jpg" alt="hurricane_harvey" width = "100%" height="200px"> 
+    </div>
+    <div class="tweet_text">
+      <p>Harvey bashes Texas coast, leaving homes damaged, residents injured &amp; without power</p>
+    </div>
+</div>
+<div class="tweet three">
+  <div class="tweet_img">
+    <img src="sample_dataset/data_image/hurricane_maria/7_11_2017/927758858776465408_0.jpg" alt="hurricane_maria" width = "100%" height="200px"> 
+  </div>
+  <div class="tweet_text">
+    <p>Guaynabo resident Efrain Diaz stands by a bridge washed out by rains carrying debris from Hurricane Maria</p>
+  </div>
+</div>
+<div class="tweet five">
+<div class="tweet_img">
+  <img src="sample_dataset/data_image/hurricane_maria/29_9_2017/913745586104528898_0.jpg" alt="hurricane_maria" width = "100%" height="200px"> 
+</div>
+<div class="tweet_text">
+  <p>Dawn just won $400 and we're gonna match the amount for Hurricane Maria Relief!</p>
+</div>
+</div>
+
+<div class="tweet five">
+  <div class="tweet_img">
+    <img src="sample_dataset/data_image/hurricane_maria/6_10_2017/916154437202096128_0.jpg" alt="hurricane_maria" width = "100%" height="200px"> 
+  </div>
+  <div class="tweet_text">
+    <p>So many faves on one track for Puerto Rico á¼Ÿ5á¼Ÿ7 #AlmostLikePraying #SupportPR</p>
+  </div>
+</div>
+<div class="tweet five">
+<div class="tweet_img">
+  <img src="sample_dataset/data_image/hurricane_maria/21_10_2017/921538011514404865_0.jpg" alt="hurricane_maria" width = "100%" height="200px"> 
+</div>
+<div class="tweet_text">
+  <p>Puerto Rico power: Massive logistics challenge: The commander of the U.S. A.. #usa #news</p>
+</div>
+</div>
+<div class="tweet five">
+<div class="tweet_img">
+<img src="sample_dataset/data_image/mexico_earthquake/20_9_2017/910640199272747008_0.jpg" alt="mexico_earthquake" width = "100%" height="200px"> 
+</div>
+<div class="tweet_text">
+<p>Map of #2017PueblaMexicoEarthquake</p>
+</div>
+</div>
+
+<div class="tweet five">
+<div class="tweet_img">
+<img src="sample_dataset/data_image/mexico_earthquake/27_9_2017/912984452707500033_0.jpg" alt="mexico_earthquake" width = "100%" height="200px"> 
+</div>
+<div class="tweet_text">
+<p>#earthquake (GFZ): M 3.9, Gulf of Mexico</p>
+</div>
+</div>
+<div class="tweet five">
+<div class="tweet_img">
+<img src="sample_dataset/data_image/mexico_earthquake/20_9_2017/910524419390369792_0.jpg" alt="mexico_earthquake" width = "100%" height="200px"> 
+</div>
+<div class="tweet_text">
+<p>Prayers for the millions people affected by the powerful earthquake in Mexico. á½‰Aá¼Ÿ2á¼ŸDâ¤ï¸#MexicoFuerte #MexicoCity</p>
+</div>
+</div>
+<div class="tweet four">
+<div class="tweet_img">
+<img src="sample_dataset/data_image/california_wildfires/23_10_2017/922436953433366531_0.jpg" alt="california_wildfires" width = "100%" height="200px"> 
+</div>
+<div class="tweet_text">
+<p>3 jaw-dropping videos from the California wildfires</p>
+</div>
+</div>
+<div class="tweet five">
+  <div class="tweet_img">
+    <img src="sample_dataset/data_image/california_wildfires/17_10_2017/920320104839237632_0.jpg" alt="california_wildfires" width = "100%" height="200px"> 
+  </div>
+  <div class="tweet_text">
+    <p>California woman stole from fire evacuees in SantaÂ Rosa</p>
+  </div>
+</div>
+<div class="tweet two">
+<div class="tweet_img">
+  <img src="sample_dataset/data_image/california_wildfires/18_10_2017/920621738932649985_0.jpg" alt="california_wildfires" width = "100%" height="200px"> 
+</div>
+<div class="tweet_text">
+  <p>Oregon strike teams return home from battling wildfires in California</p>
+</div>
+</div>
+<div class="tweet two">
+<div class="tweet_img">
+<img src="sample_dataset/data_image/california_wildfires/25_10_2017/923030194096656384_0.jpg" alt="california_wildfires" width = "100%" height="200px"> 
+</div>
+<div class="tweet_text">
+<p>#Firefighters Quickly Contain Clifftop Brush #Fire S.F:</p>
+</div>
+</div>
+
+<div class="tweet five">
+<div class="tweet_img">
+<img src="sample_dataset/data_image/iraq_iran_earthquake/13_11_2017/930069080173723648_0.jpg" alt="iraq_iran_earthquake" width = "100%" height="200px"> 
+</div>
+<div class="tweet_text">
+<p>My heart goes with Iran and Iraq 7.3 #earthquake . Pray for sarpol-e zahab and #Kurdistan</p>
+</div>
+</div>
+<div class="tweet four">
+<div class="tweet_img">
+<img src="sample_dataset/data_image/iraq_iran_earthquake/14_11_2017/930536595324682240_0.jpg" alt="iraq_iran_earthquake" width = "100%" height="200px"> 
+</div>
+<div class="tweet_text">
+<p>#Earthquake ML 3.9 EASTERN IRAN</p>
+</div>
+</div>
+<div class="tweet five">
+<div class="tweet_img">
+<img src="sample_dataset/data_image/iraq_iran_earthquake/15_11_2017/930878705265717249_0.jpg" alt="iraq_iran_earthquake" width = "100%" height="200px"> 
+</div>
+<div class="tweet_text">
+ <p>#Iran criticised for #earthquake response Details :</p>
+</div>
+</div>
+<div class="tweet five">
+  <div class="tweet_img">
+    <img src="sample_dataset/data_image/srilanka_floods/19_6_2017/876871512250122242_0.jpg" alt="srilanka_floods" width = "100%" height="200px"> 
+  </div>
+  <div class="tweet_text">
+    <p>Mora's midnight bakery âœ¨Moon sea</p>
+  </div>
+</div>
+<div class="tweet five">
+<div class="tweet_img">
+  <img src="sample_dataset/data_image/srilanka_floods/1_6_2017/870392021319417857_0.jpg" alt="srilanka_floods" width = "100%" height="200px"> 
+</div>
+<div class="tweet_text">
+  <p>Mr Richmond -Hates Mr Mora -Doesnt stop talking about Soccer -Has never spoken to a female student</p>
+</div>
+</div>
+<div class="tweet five">
+<div class="tweet_img">
+<img src="sample_dataset/data_image/srilanka_floods/26_6_2017/879368692517273601_0.jpg" alt="srilanka_floods" width = "100%" height="200px"> 
+</div>
+<div class="tweet_text">
+<p>A serene environment and a fierce ride. Photo by Adrian Mora Maroto.</p>
+</div>
+</div>
+
+<div class="tweet five">
+<div class="tweet_img">
+<img src="sample_dataset/data_image/srilanka_floods/3_6_2017/871056873121820672_0.jpg" alt="" width = "100%" height="200px"> 
+</div>
+<div class="tweet_text">
+<p>Mora 740 MG Fixed Blade Bushcraft Knife Review</p>
+</div>
+</div>
+
+
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    function showTweet(type){
+      console.log(type); 
+      let tweets = $('.tweet') ;
+      console.log(tweets[0]) ; 
+      for(let i = 0 ; i<tweets.length ; i++){
+        let tweet = $(tweets[i]) ;
+        if(type == 'all' || tweet.hasClass(type)){
+          tweet.show();
+        }else tweet.hide() ;
+      }
+    }
+    $('.btn').click((event)=>{
+      let element = $(event.target) ; 
+      if(element.hasClass('btn1')){
+        showTweet('one') ;
+        document.getElementById("myP").style.visibility = "visible";
+        document.getElementById("myP").innerHTML = "Affected Individuals";
+      }else if(element.hasClass('btn2')){
+        showTweet('two') ;
+        document.getElementById("myP").style.visibility = "visible";
+        document.getElementById("myP").innerHTML = "Rescue Voluntering or Donation Effect";
+      }else if(element.hasClass('btn3')){
+        showTweet('three') ;
+        document.getElementById("myP").style.visibility = "visible";
+        document.getElementById("myP").innerHTML = "Infrastructure and utility damage";
+      }
+      else if(element.hasClass('btn4')){
+        showTweet('four') ;
+        document.getElementById("myP").style.visibility = "visible";
+        document.getElementById("myP").innerHTML = "Other relevant information";
+      }
+      else if(element.hasClass('btn5')){
+        showTweet('five'); 
+        document.getElementById("myP").style.visibility = "visible";
+        document.getElementById("myP").innerHTML = "Not humanitarian";
+      }else {
+        showTweet('all');
+        document.getElementById("myP").style.visibility = "visible";
+        document.getElementById("myP").innerHTML = "It covers all cases";
+      }
+    });
+
+  </script>
+</body>
+</html>
